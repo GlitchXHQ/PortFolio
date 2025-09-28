@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from "../assets/company/logo.png"
+import logo from "../../assets/company/logo.png"
 import { useNavigate } from 'react-router-dom'
 import { CiMenuBurger } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
@@ -25,7 +25,7 @@ const NavBar = () => {
     };
 
     return (
-        <div className='bg-[#290A3D] border rounded-xl max-w-7xl items-center justify-center mx-auto p-2 relative z-10'>
+        <div className='bg-[#190033] border rounded-xl max-w-7xl items-center justify-center mx-auto p-2 relative z-10'>
             <div className='flex flex-row justify-between text-gray-400 items-center'>
                 {/* Desktop Left Links */}
                 <div className='sm:flex sm:flex-row gap-10 hidden'>

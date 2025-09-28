@@ -10,3 +10,22 @@
 .cur2{
   font-family: 'Sour Gummy', cursive;
 }
+
+.text-rotator-container {
+  font-size: 3em;
+  color: #333;
+}
+
+.rotating-text {
+  /* Highlight the rotating text */
+  font-weight: 500;
+  color: whitesmoke;
+  /* Add a blinking cursor */
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+/* Keyframe animation for the blinking cursor */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #007bff; }
+}
